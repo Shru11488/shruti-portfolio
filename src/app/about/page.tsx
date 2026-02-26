@@ -2,7 +2,7 @@ export default function About() {
     return (
         <section className="max-w-5xl mx-auto px-6 py-16">
             <h1 className="text-4xl font-bold mb-8 text-center">About Me</h1>
-            <p className="text-gray-600 text-lg mb-10 text-center">
+            <p className="text-gray-400 text-lg mb-10 text-center">
                 I am a passionate Full Stack Developer with a strong interest in building 
                 modern web applications using React, Redux, and Next.js. 
                 I enjoy solving problems and creating responsive, user-friendly interfaces.
@@ -24,7 +24,7 @@ export default function About() {
         {/* Education Section */}
             <div>
                 <h2 className="text-2xl font-semibold mb-4">Education</h2>
-                <p className="text-gray-600">
+                <p className="text-gray-400">
           Bachelor's Degree in Information Technology  
           <br />
           Currently enhancing my skills through hands-on full stack projects.

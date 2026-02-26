@@ -1,6 +1,6 @@
 export default  function Footer(){
   return (
-    <footer className="w-full bg-black text-white py-4 mt-10 text-center">
+    <footer className="bg-white border-t text-center py-6 mt-16 text-gray-500">
       <p>© {new Date().getFullYear()} Shruti Deshmukh. All rights reserved.</p>
     </footer>
   );

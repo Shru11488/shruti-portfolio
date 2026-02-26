@@ -29,9 +29,9 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="border rounded-xl p-6 shadow hover:shadow-lg transition"
+            className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300"
           >
-            <h2 className="text-2xl font-semibold mb-3">
+            <h2 className="text-2xl font-semibold mb-3 text-gray-800">
               {project.title}
             </h2>
 

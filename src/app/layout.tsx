@@ -26,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <body className="flex flex-col min-h-screen">
+        <body
+  className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen bg-gray-50 text-gray-900`}
+>
           <Navbar />
           <main className="flex-grow">
             {children}
