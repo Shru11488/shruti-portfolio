@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Link from "next/link";
 const projects = [
   {
-    title:"Data Manager",
+    title: "Data Manager",
     description:
       "A dynamic table application with pagination, global filtering, sorting and Excel export functionality.",
     tech: "React, Redux, Next.js",
-    github: "https://github.com/YOUR-USERNAME/data-manager",
+    github: "https://github.com/Shru11488/data-manager",
     demo: "https://data-manager-alpha.vercel.app",
   },
   {
@@ -13,17 +13,15 @@ const projects = [
     description:
       "Responsive landing page for a coffee shop with modern UI and smooth interactions.",
     tech: "HTML, CSS, JavaScript",
-    github: "https://github.com/YOUR-USERNAME/My-coffee-shop",
-    demo: "https://my-coffee-shop-alpha.vercel.app",
+    github: "https://github.com/Shru11488/My-coffee-shop.git",
+    demo: "https://my-coffee-shop-lovat.vercel.app",
   },
 ];
 
 export default function Projects() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-16">
-      <h1 className="text-4xl font-bold text-center mb-12">
-        My Projects
-      </h1>
+      <h1 className="text-4xl font-bold text-center mb-12">My Projects</h1>
 
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
@@ -35,16 +33,14 @@ export default function Projects() {
               {project.title}
             </h2>
 
-            <p className="text-gray-600 mb-4">
-              {project.description}
-            </p>
+            <p className="text-gray-600 mb-4">{project.description}</p>
 
             <p className="text-sm text-gray-500 mb-4">
               Tech Stack: {project.tech}
             </p>
 
             <div className="flex gap-4">
-                <Link
+              <Link
                 href={project.github}
                 target="_blank"
                 className="text-blue-600 hover:underline"
